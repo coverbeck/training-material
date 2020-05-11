@@ -10,3 +10,18 @@ workflows:
     primaryDescriptorPath: topics/introduction/tutorials/galaxy-intro-101-everyone/workflows/main_workflow.ga
     testParameterFiles:
       - foo.json
+  - name: de-novo
+    subclass: GXFORMAT2
+    primaryDescriptorPath: topics/transcriptomics/tutorials/full-de-novo/workflows/main_workflow.ga
+    testParameterFiles:
+      - foo.json
+  - name: dip
+    subclass: GXFORMAT2
+    primaryDescriptorPath: topics/variant-analysis/tutorials/dip/workflows/diploid.ga
+    testParameterFiles:
+      - foo.json
+  - name: genome-annotation
+    subclass: GXFORMAT2
+    primaryDescriptorPath: topics/genome-annotation/tutorials/annotation-with-prokka/workflows/Galaxy-Workflow-Workflow_constructed_from_history__prokka-workflow_.ga
+    testParameterFiles:
+      - foo.json
